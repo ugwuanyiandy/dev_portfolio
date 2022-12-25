@@ -569,6 +569,7 @@ img.project-screen {
     margin-top: 60px;
     border-radius: 12px;
     transition: scale, 500ms;
+    border: 1px solid #381A5B;
 }
 img.project-screen:hover {
     scale: 1.05;
