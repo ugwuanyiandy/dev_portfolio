@@ -55,6 +55,7 @@
 /*Variables for dark theme*/
 body {
     /*RGB color mode*/
+    --app-bg: #16103E;
     --hero-bg: linear-gradient(164.15deg, rgba(26, 18, 71, 0.8) 3.33%, #16103E 89.75%);
     --hero-bd-filter: blur(10px);
     --body-bg: linear-gradient(164.15deg, rgba(26, 18, 71, 0.8) 3.33%, #16103E 89.75%);
@@ -77,6 +78,7 @@ body {
 /*Variables for light theme*/
 body.light-theme {
     /*RGB color mode*/
+    --app-bg: #FFF;
     --hero-bg: linear-gradient(163.61deg, rgba(234, 234, 234, 0.93) 3.42%, rgba(228, 228, 228, 0.32) 103.32%);
     --hero-bd-filter: blur(10px);
     --body-bg: #E5E5E5;
@@ -121,6 +123,9 @@ img {
     height: auto;
 }
 
+body {
+    background-color: var(--app-bg);
+}
 
 .main {
     overflow: hidden;
