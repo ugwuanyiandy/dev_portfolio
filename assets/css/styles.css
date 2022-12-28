@@ -572,6 +572,11 @@ img.wink-emoji {
     }
 }
 
+a.project-screen {
+    width: 100%;
+    height: max-content;
+    transition: scale, 500ms;
+}
 img.project-screen {
     width: 100%;
     margin-bottom: 12px;
@@ -579,12 +584,14 @@ img.project-screen {
     border-radius: 12px;
     transition: scale, 500ms;
     border: 1px solid #381A5B;
+
 }
+
 img.project-screen:hover {
     scale: 1.05;
 }
 @media screen and (min-width: 768px) {
-    img.project-screen {
+    a.project-screen {
         width: 50%;
     }
 }
