@@ -675,7 +675,7 @@ img.project-screen:hover {
 
 .medium-list {
     display: flex;
-    overflow-x: scroll;
+    overflow-x: auto;
     align-items: center;
     margin-bottom: 12px;
     padding-top: 10px;
@@ -705,7 +705,7 @@ img.project-screen:hover {
 
 .spotify-list {
     display: flex;
-    overflow-x: scroll;
+    overflow-x: auto;
     align-items: center;
     margin-bottom: 12px;
     padding-top: 10px;
