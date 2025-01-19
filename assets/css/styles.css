@@ -553,7 +553,7 @@ img.wink-emoji {
 }
 
 .work-item.design::before {
-    content: "Design."
+    content: "Design & Dev."
 }
 
 .work-item.dev::before {
