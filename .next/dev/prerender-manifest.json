@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/projects/squad-bulk-payment":{},"/projects/digital-banking-redesign":{},"/projects/logistics-ai-dashboard":{},"/projects/gtfm-investment-portal":{},"/projects/squad-for-churches":{}},"dynamicRoutes":{"/projects/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/projects/[slug]","routeRegex":"^\\/projects\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"89b6565a1f3b1f05f6c41caeb121bc43","previewModeSigningKey":"16fd7683fbcd35b2de6ba5c2636ab3e0ba4e9600ced8e2984b2cc8c55e2cd114","previewModeEncryptionKey":"3e7b0f74de445e9062cd415218eaad502f3effc19ae20a7a2b2c4549a1e78ef2"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "41464efaf33ae2f5cd9331ea5d90d580",
+    "previewModeSigningKey": "41e427d81b9cf673c6affecd89c93da49ff337a4831e3a42a9d0e90b8afb6e24",
+    "previewModeEncryptionKey": "717cf55cc499c5e2f50abf1076e737121c6dcf55c5c2a99657e8aed4b592f146"
+  }
+}
