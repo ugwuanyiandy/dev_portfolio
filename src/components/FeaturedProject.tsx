@@ -7,21 +7,21 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 const slides = [
     {
         id: 1,
+        image: '/assets/img/projectimg1.jpg',
+        title: "Squad Bulk Payments",
+        href: '/projects/squad-bulk-payment',
+    },
+    {
+        id: 2,
         image: '/assets/img/gtfm0.png',
         title: 'GTFM Investment Portal',
         href: '/projects/gtfm-investment-portal',
     },
     {
-        id: 2,
+        id: 3,
         image: '/assets/img/s4c1.png',
         title: 'Squad for Churches',
         href: '/projects/squad-for-churches',
-    },
-    {
-        id: 3,
-        image: '/assets/img/projectimg1.jpg',
-        title: "Squad Bulk Payments",
-        href: '/projects/squad-bulk-payment',
     },
 ]
 
@@ -50,7 +50,7 @@ export default function FeaturedProject() {
 
     return (
         <section className="relative px-4 pb-20 -mt-20 z-20">
-            <div className="max-w-[728px] mx-auto">
+            <div className="max-w-[900px] mx-auto">
                 <div className="relative rounded-[40px] p-3 shadow-2xl overflow-hidden">
                     {/* Spinning texture background */}
                     <div
@@ -61,13 +61,13 @@ export default function FeaturedProject() {
                     <div className="relative z-10">
                         <div className="rounded-[30px] overflow-hidden">
                             <div
-                                className="relative aspect-[16/9] md:aspect-[16/8] bg-white rounded-[28px] overflow-hidden group"
+                                className="relative aspect-[16/9] bg-white rounded-[28px] overflow-hidden group"
                                 onTouchStart={onTouchStart}
                                 onTouchEnd={onTouchEnd}
                             >
                                 {/* Sliding strip */}
                                 <div
-                                    className="absolute inset-0 flex transition-transform duration-500 ease-in-out-back"
+                                    className="absolute inset-0 flex transition-transform duration-700 ease-in-out-back"
                                     style={{ transform: `translateX(-${current * (100 / slides.length)}%)`, width: `${slides.length * 100}%` }}
                                 >
                                     {slides.map((slide, i) => (

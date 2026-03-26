@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/andrew.ugwuanyi/Atelier/Apotheosis/dev_portfolio/src/app/loading.tsx"],"sourcesContent":["export default function Loading() {\n    return (\n        <div className=\"flex min-h-screen items-center justify-center bg-white dark:bg-gray-950\">\n            <div className=\"h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-gray-900 dark:border-gray-800 dark:border-t-white\"></div>\n        </div>\n    )\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC;YAAI,WAAU;;;;;;;;;;;AAG3B"}}]
-}

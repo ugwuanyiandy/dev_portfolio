@@ -7,7 +7,7 @@ const testimonials = [
     id: 1,
     text: "I needed someone who could wear multiple hats - design thinking and solid development skills. Andrew delivered beyond expectations. He redesigned our entire fund management interface from scratch, then helped build an end-user portal that performs beautifully. His attention to micro-interactions and loading states made our app feel premium. Six months post-launch, we have a 4.8-star rating by our clients.",
     name: "John Babawale",
-    role: "CTO - Paystack MFB",
+    role: "CTO - Paystack Titan",
     image: "/assets/img/jon.jpeg"
   },
   {

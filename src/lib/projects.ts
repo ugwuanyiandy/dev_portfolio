@@ -31,7 +31,7 @@ export const projects: Project[] = [
     {
         id: 1,
         slug: 'gtfm-investment-portal',
-        title: 'GTFM Customer Investment Portal — Tiered Portfolio Management for Every Risk Appetite',
+        title: 'Providing Tiered Portfolio Management for Every Risk Appetite',
         image: '/assets/img/gtfm0.png',
         type: 'dev',
         primaryTags: ['UX Design', 'Frontend Development'],
@@ -174,7 +174,7 @@ export const projects: Project[] = [
     {
         id: 2,
         slug: 'squad-for-churches',
-        title: "Squad for Churches — An All-in-One Platform for Giving, Members, and Ministry Operations",
+        title: "Creating an All-in-One Platform for Giving, Members, and Ministry Operations",
         image: '/assets/img/s4c1.png',
         type: 'dev',
         primaryTags: ['UX Design', 'Frontend Development'],
