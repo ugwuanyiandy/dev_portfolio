@@ -12,9 +12,9 @@ export default function Work() {
 
 				<div className="grid gap-16">
 					{projects.map((project) => (
-						<Link key={project.id} href={`/projects/${project.slug}`} className="block rounded-[32px] bg-gray-100 dark:bg-gray-900 group">
+						<Link key={project.id} href={`/projects/${project.slug}`} className="block rounded-2xl md:rounded-3xl lg:rounded-[32px] bg-gray-100 dark:bg-gray-900 group">
 							{/* Card Image Container */}
-							<div className="relative w-full aspect-[2/1] rounded-[32px] overflow-hidden p-8 pb-0 flex items-end justify-center shadow-sm">
+							<div className="relative w-full aspect-[2/1] rounded-2xl md:rounded-3xl lg:rounded-[32px] overflow-hidden p-8 pb-0 flex items-end justify-center shadow-sm">
 								{/* Blurred Background Image */}
 								<Image
 									src={project.image}

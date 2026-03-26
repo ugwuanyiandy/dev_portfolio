@@ -51,7 +51,7 @@ export default function FeaturedProject() {
     return (
         <section className="relative px-4 pb-20 -mt-20 z-20">
             <div className="max-w-[900px] mx-auto">
-                <div className="relative rounded-[40px] p-3 shadow-2xl overflow-hidden">
+                <div className="relative rounded-[12px] md:rounded-[20px] lg:rounded-[40px] p-3 shadow-2xl overflow-hidden">
                     {/* Spinning texture background */}
                     <div
                         className="absolute inset-[-100%] bg-cover bg-center animate-spin-slow"
@@ -59,15 +59,15 @@ export default function FeaturedProject() {
                     />
 
                     <div className="relative z-10">
-                        <div className="rounded-[30px] overflow-hidden">
+                        <div className="rounded-[8px] md:rounded-[14px] lg:rounded-[30px] overflow-hidden">
                             <div
-                                className="relative aspect-[16/9] bg-white rounded-[28px] overflow-hidden group"
+                                className="relative aspect-[16/9] bg-white rounded-[6px] md:rounded-[12px] lg:rounded-[28px] overflow-hidden group"
                                 onTouchStart={onTouchStart}
                                 onTouchEnd={onTouchEnd}
                             >
                                 {/* Sliding strip */}
                                 <div
-                                    className="absolute inset-0 flex transition-transform duration-700 ease-in-out-back"
+                                    className="absolute inset-0 flex transition-transform duration-700 ease-in-out"
                                     style={{ transform: `translateX(-${current * (100 / slides.length)}%)`, width: `${slides.length * 100}%` }}
                                 >
                                     {slides.map((slide, i) => (
